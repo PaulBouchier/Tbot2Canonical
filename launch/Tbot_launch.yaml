@@ -1,0 +1,11 @@
+launch:  
+  
+- node:  
+    pkg: 'turtlesim'  
+    exec: 'turtlesim_node'  
+    name: 'sim'  
+
+- node:
+    pkg: 'Tbot2Canonical'
+    exec: 'Tbot2Canonical'
+    name: 'Tbot2Canonical'
